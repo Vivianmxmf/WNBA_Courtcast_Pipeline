@@ -28,6 +28,8 @@ Lightweight but end-to-end toolkit for training tiny-object YOLOv8 detectors, co
   ```bash
   CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python3 src/yolo/train_yolov8.py --device 0,1,2,3,4,5,6,7 --amp false
   ```
+  #### You might access the pre-trained model here: https://www.kaggle.com/models/weijiahan/wnba-yolov8-player-ball-detection/
+  #### You might access the original dataset here: https://www.kaggle.com/datasets/weijiahan/wnba-yolov8-dataset 
 - Build MOT mirrors from frame lists:
   ```bash
   python3 src/track/build_mot_from_lists.py --split val --frame_list data/meta/splits/val.txt --gt_master data/meta/cvat_exports/val_gt.txt --images_root data/dataset/images --fps 2

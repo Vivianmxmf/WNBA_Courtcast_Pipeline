@@ -91,7 +91,7 @@ python3 src/rules/rules_actions.py --split val --tracker botsort --player_cls 0 
 
 **Dataset stats and box distributions:**
 
-![Dataset Stats](img/labels.png)
+![Dataset Stats](img/labels.jpg)
 
 **Tracking visual examples:**
 
@@ -109,7 +109,7 @@ python3 src/rules/rules_actions.py --split val --tracker botsort --player_cls 0 
 
 **Team assignment diagnostics:**
 
-![Team Assignment_kmeans](img/keans_clustering.png)
+![Team Assignment_kmeans](img/kmeans_clustering.png)
 ![Team Assignment_prototype](img/prototype_clustering.png)
 
 **Court projection and heatmaps:**

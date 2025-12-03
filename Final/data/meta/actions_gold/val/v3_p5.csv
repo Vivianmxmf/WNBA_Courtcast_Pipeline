@@ -1,0 +1,11 @@
+sequence,type,t_release,t_catch,t_start,t_end,x_release,y_release,x_catch,y_catch,notes
+v3_p5,dribble, , ,  5,  33, , , , , 
+v3_p5,pass,  37,  40,  ,  ,  , , , , 
+v3_p5,dribble, , ,  43,  49, , , , , 
+v3_p5,pass,  50,  55,  ,  ,  , , , , 
+v3_p5,dribble, , ,  60,  64, , , , , 
+v3_p5,pass,  65,  69,  ,  ,  , , , , 
+v3_p5,dribble, , ,  71,  77, , , , , 
+v3_p5,pass,  78,  86,  ,  ,  , , , , 
+v3_p5,shot,91 , ,  ,  , , , , , 
+

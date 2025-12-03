@@ -1,0 +1,45 @@
+{
+  "sequence": "v2_p6",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 2,
+      "t_catch": 3,
+      "from_xy": [
+        414.21312000000006,
+        505.40544
+      ],
+      "to_xy": [
+        517.02016,
+        454.90392
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 2,
+      "t_catch": 3,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 8,
+      "t_catch": 9,
+      "from_xy": [
+        608.28928,
+        420.85584000000006
+      ],
+      "to_xy": [
+        457.55263999999994,
+        359.73864000000003
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 8,
+      "t_catch": 9,
+      "from_xy": null,
+      "to_xy": null
+    }
+  ]
+}

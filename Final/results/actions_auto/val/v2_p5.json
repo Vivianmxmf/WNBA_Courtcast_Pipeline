@@ -1,0 +1,20 @@
+{
+  "sequence": "v2_p5",
+  "fps": 2,
+  "events": [
+    {
+      "type": "dribble",
+      "player_id": 2,
+      "t_start": 1,
+      "t_end": 3,
+      "cycles": 1
+    },
+    {
+      "type": "dribble",
+      "player_id": 5,
+      "t_start": 9,
+      "t_end": 11,
+      "cycles": 1
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+sequence,type,t_release,t_catch,t_start,t_end,x_release,y_release,x_catch,y_catch,notes
+v3_p3,dribble, , ,  5,  7, , , , , 
+v3_p3,pass,  7,  9,  ,  ,  , , , , 
+v3_p3,shot,10 , ,  ,  , , , , , 
+

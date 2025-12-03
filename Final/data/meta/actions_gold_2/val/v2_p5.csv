@@ -1,0 +1,6 @@
+sequence,type,t_release,t_catch,t_start,t_end,x_release,y_release,x_catch,y_catch,notes
+v2_p5,pass,  1,  2,  ,  ,  , , , , 
+v2_p5,dribble, , ,  3,  6, , , , , 
+v2_p5,pass,  7,  8,  ,  ,  , , , , 
+v2_p5,dribble, , ,  8,  9, , , , , 
+v2_p5,shot,12 , ,  ,  , , , , , layup

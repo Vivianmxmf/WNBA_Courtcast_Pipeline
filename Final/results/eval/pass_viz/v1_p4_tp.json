@@ -1,0 +1,25 @@
+{
+  "sequence": "v1_p4",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 3,
+      "t_catch": 4,
+      "from_xy": [
+        771.3151999999999,
+        321.29568
+      ],
+      "to_xy": [
+        383.7529599999999,
+        404.90711999999996
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 3,
+      "t_catch": 4,
+      "from_xy": null,
+      "to_xy": null
+    }
+  ]
+}

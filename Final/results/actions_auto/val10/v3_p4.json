@@ -1,0 +1,12 @@
+{
+  "sequence": "v3_p4",
+  "fps": 2,
+  "events": [
+    {
+      "type": "shot",
+      "shooter_id": 10,
+      "t_release": 42,
+      "air_frames": 18
+    }
+  ]
+}

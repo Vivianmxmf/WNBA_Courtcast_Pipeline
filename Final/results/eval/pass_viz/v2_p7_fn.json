@@ -1,0 +1,20 @@
+{
+  "sequence": "v2_p7",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 1,
+      "t_catch": 2
+    },
+    {
+      "type": "pass",
+      "t_release": 6,
+      "t_catch": 7
+    },
+    {
+      "type": "pass",
+      "t_release": 11,
+      "t_catch": 13
+    }
+  ]
+}

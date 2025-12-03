@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>9</id>
+      <size>2</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-11-15 11:09:41.863853+00:00</created>
+      <updated>2025-11-15 11:35:52.828204+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>9</id>
+          <start>0</start>
+          <stop>1</stop>
+          <url>http://localhost:8080/api/jobs/9</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>vivian</username>
+        <email>weivivi77@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>court_point</name>
+          <color>#ff3355</color>
+          <type>points</type>
+          <attributes>
+            <attribute>
+              <name>kind</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>left_baseline_corner</default_value>
+              <values>left_baseline_corner
+right_baseline_corner
+left_lane_top
+right_lane_top
+left_3pt_sideline
+right_3pt_sideline
+center_circle_left
+center_circle_right</values>
+            </attribute>
+            <attribute>
+              <name>seg_id</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>1</default_value>
+              <values>1
+2</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-11-15 11:36:51.305742+00:00</dumped>
+  </meta>
+  <image id="0" name="game1_left.png" width="1280" height="720">
+    <points label="court_point" source="manual" occluded="0" points="28.25,570.55" z_order="0">
+      <attribute name="kind">left_3pt_sideline</attribute>
+      <attribute name="seg_id">1</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="454.50,280.00" z_order="0">
+      <attribute name="kind">right_baseline_corner</attribute>
+      <attribute name="seg_id">1</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="654.70,494.20" z_order="0">
+      <attribute name="kind">left_lane_top</attribute>
+      <attribute name="seg_id">1</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="744.57,390.65" z_order="0">
+      <attribute name="kind">right_lane_top</attribute>
+      <attribute name="seg_id">1</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="436.37,292.67" z_order="0">
+      <attribute name="kind">right_3pt_sideline</attribute>
+      <attribute name="seg_id">1</attribute>
+    </points>
+  </image>
+  <image id="1" name="game1_right.png" width="1280" height="720">
+    <points label="court_point" source="manual" occluded="0" points="821.50,297.60" z_order="0">
+      <attribute name="kind">left_baseline_corner</attribute>
+      <attribute name="seg_id">2</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="840.54,311.28" z_order="0">
+      <attribute name="kind">left_3pt_sideline</attribute>
+      <attribute name="seg_id">2</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="1269.50,598.30" z_order="0">
+      <attribute name="kind">right_3pt_sideline</attribute>
+      <attribute name="seg_id">2</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="622.38,517.72" z_order="0">
+      <attribute name="kind">right_lane_top</attribute>
+      <attribute name="seg_id">2</attribute>
+    </points>
+    <points label="court_point" source="manual" occluded="0" points="526.39,413.04" z_order="0">
+      <attribute name="kind">left_lane_top</attribute>
+      <attribute name="seg_id">2</attribute>
+    </points>
+  </image>
+</annotations>

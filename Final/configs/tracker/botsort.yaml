@@ -1,0 +1,20 @@
+# botsort.yaml (recommended baseline for sideline basketball)
+tracker_type: botsort
+
+track_high_thresh: 0.70
+track_low_thresh: 0.50
+new_track_thresh: 0.60
+match_thresh: 0.80
+track_buffer: 30          # was 60 → fewer re-inits through brief occlusions
+min_box_area: 0
+
+fuse_score: true
+gmc_method: orb           # keep ORB — very helpful for panning
+
+with_reid: true
+model: auto
+reid_weights: artifacts/weights/osnet_x0_25_msmt17.pt
+device: 2
+
+proximity_thresh: 0.50    # back to default; too high makes you miss matches
+appearance_thresh: 0.2   # default; raise only if obvious ID swaps

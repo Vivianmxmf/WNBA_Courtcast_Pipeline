@@ -1,0 +1,83 @@
+{
+  "game_id": "v1",
+  "seg_id": 2,
+  "half": "right",
+  "src_xml": "data/meta/cvat_exports/homography/game1.xml",
+  "used_points": [
+    "left_3pt_sideline",
+    "left_baseline_corner",
+    "left_ft_corner",
+    "right_3pt_sideline",
+    "right_ft_corner"
+  ],
+  "points_image": {
+    "left_3pt_sideline": [
+      840.54,
+      311.28
+    ],
+    "left_baseline_corner": [
+      821.5,
+      297.6
+    ],
+    "left_ft_corner": [
+      526.39,
+      413.04
+    ],
+    "right_3pt_sideline": [
+      1269.5,
+      598.3
+    ],
+    "right_ft_corner": [
+      622.38,
+      517.72
+    ]
+  },
+  "points_court": {
+    "left_3pt_sideline": [
+      47.0,
+      -23.410734717218936
+    ],
+    "left_baseline_corner": [
+      47.0,
+      -25.0
+    ],
+    "left_ft_corner": [
+      28.0,
+      -8.0
+    ],
+    "right_3pt_sideline": [
+      47.0,
+      23.410734717218936
+    ],
+    "right_ft_corner": [
+      28.0,
+      8.0
+    ]
+  },
+  "H": [
+    [
+      28.736759899306016,
+      1.768805834908397,
+      -183.63213289657733
+    ],
+    [
+      -0.4779841873007648,
+      3.2605604110008906,
+      515.639620898589
+    ],
+    [
+      0.0030957191941088555,
+      -0.008270750577730999,
+      1.0
+    ]
+  ],
+  "inliers": [
+    1,
+    0,
+    1,
+    1,
+    1
+  ],
+  "units": "feet",
+  "model": "NBA half-court (3pt corner via circle\u2229baseline)"
+}

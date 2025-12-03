@@ -1,0 +1,9 @@
+ultralytics>=8.3.0
+opencv-python
+numpy
+tqdm
+matplotlib
+scikit-learn
+lapx              # for trackers (BoT-SORT / ByteTrack)
+filterpy          # Kalman filter deps
+supervision       # optional: visualization helpers

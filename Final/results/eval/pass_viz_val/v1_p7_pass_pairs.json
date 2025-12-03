@@ -1,0 +1,17 @@
+[
+  {
+    "g": {
+      "t_release": 4,
+      "t_catch": 5
+    },
+    "a": {
+      "type": "pass",
+      "from_id": 9,
+      "to_id": 4,
+      "t_release": 4,
+      "t_catch": 5,
+      "air_f": 0,
+      "confidence": 1.0
+    }
+  }
+]

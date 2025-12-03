@@ -1,0 +1,72 @@
+{
+  "sequence": "v1_p8",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 4,
+      "t_catch": 5,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 9,
+      "t_catch": 10,
+      "from_xy": [
+        601.72288,
+        269.58024
+      ],
+      "to_xy": [
+        683.46624,
+        266.7816
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 9,
+      "t_catch": 10,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 10,
+      "t_catch": 11,
+      "from_xy": [
+        683.46624,
+        266.7816
+      ],
+      "to_xy": [
+        790.3795200000001,
+        254.82167999999996
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 10,
+      "t_catch": 11,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 11,
+      "t_catch": 12,
+      "from_xy": [
+        790.3795200000001,
+        254.82167999999996
+      ],
+      "to_xy": [
+        768.3072,
+        150.50591999999997
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 11,
+      "t_catch": 12,
+      "from_xy": null,
+      "to_xy": null
+    }
+  ]
+}

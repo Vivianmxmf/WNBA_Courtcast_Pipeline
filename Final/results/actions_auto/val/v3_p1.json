@@ -1,0 +1,24 @@
+{
+  "sequence": "v3_p1",
+  "fps": 2,
+  "events": [
+    {
+      "type": "pass",
+      "from_id": 10,
+      "to_id": 9,
+      "t_release": 10,
+      "t_catch": 11,
+      "air_f": 0,
+      "confidence": 1.0
+    },
+    {
+      "type": "pass",
+      "from_id": 8,
+      "to_id": 6,
+      "t_release": 14,
+      "t_catch": 15,
+      "air_f": 0,
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# YOLO data config
+path: data/dataset
+train: images/train
+val: images/val_fixed
+# *** Only two classes now ***
+names:
+  0: player
+  1: ball

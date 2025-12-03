@@ -1,0 +1,19 @@
+{
+  "sequence": "v3_p2",
+  "fps": 2,
+  "events": [
+    {
+      "type": "dribble",
+      "player_id": 9,
+      "t_start": 41,
+      "t_end": 51,
+      "cycles": 2
+    },
+    {
+      "type": "shot",
+      "shooter_id": 3,
+      "t_release": 68,
+      "air_frames": 5
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sequence": "v3_p2",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 4,
+      "t_catch": 6
+    }
+  ]
+}

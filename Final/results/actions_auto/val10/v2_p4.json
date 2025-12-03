@@ -1,0 +1,13 @@
+{
+  "sequence": "v2_p4",
+  "fps": 2,
+  "events": [
+    {
+      "type": "dribble",
+      "player_id": 4,
+      "t_start": 1,
+      "t_end": 2,
+      "cycles": 1
+    }
+  ]
+}

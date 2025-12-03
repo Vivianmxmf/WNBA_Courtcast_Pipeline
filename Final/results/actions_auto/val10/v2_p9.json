@@ -1,0 +1,38 @@
+{
+  "sequence": "v2_p9",
+  "fps": 2,
+  "events": [
+    {
+      "type": "pass",
+      "from_id": 8,
+      "to_id": 7,
+      "t_release": 17,
+      "t_catch": 19,
+      "air_f": 1,
+      "confidence": 1.0
+    },
+    {
+      "type": "dribble",
+      "player_id": 7,
+      "t_start": 19,
+      "t_end": 21,
+      "cycles": 1
+    },
+    {
+      "type": "pass",
+      "from_id": 8,
+      "to_id": 3,
+      "t_release": 22,
+      "t_catch": 28,
+      "air_f": 5,
+      "confidence": 1.0
+    },
+    {
+      "type": "dribble",
+      "player_id": 5,
+      "t_start": 43,
+      "t_end": 45,
+      "cycles": 1
+    }
+  ]
+}

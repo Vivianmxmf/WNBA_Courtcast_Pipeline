@@ -1,0 +1,39 @@
+{
+  "sequence": "v2_p4",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 1,
+      "t_catch": 2,
+      "from_xy": [
+        732.55808,
+        246.50352
+      ],
+      "to_xy": [
+        638.60864,
+        255.66768000000005
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 1,
+      "t_catch": 2,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 2,
+      "t_catch": 3,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 10,
+      "t_catch": 11,
+      "from_xy": null,
+      "to_xy": null
+    }
+  ]
+}

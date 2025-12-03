@@ -1,0 +1,25 @@
+{
+  "sequence": "v3_p5",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 5,
+      "t_catch": 7
+    },
+    {
+      "type": "pass",
+      "t_release": 8,
+      "t_catch": 9
+    },
+    {
+      "type": "pass",
+      "t_release": 11,
+      "t_catch": 12
+    },
+    {
+      "type": "pass",
+      "t_release": 13,
+      "t_catch": 14
+    }
+  ]
+}

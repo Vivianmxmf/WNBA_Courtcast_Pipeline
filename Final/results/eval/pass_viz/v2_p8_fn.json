@@ -1,0 +1,15 @@
+{
+  "sequence": "v2_p8",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 3,
+      "t_catch": 4
+    },
+    {
+      "type": "pass",
+      "t_release": 14,
+      "t_catch": 15
+    }
+  ]
+}

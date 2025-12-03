@@ -1,0 +1,21 @@
+{
+  "sequence": "v1_p4",
+  "fps": 2,
+  "events": [
+    {
+      "type": "pass",
+      "from_id": 4,
+      "to_id": 1,
+      "t_release": 16,
+      "t_catch": 17,
+      "air_f": 0,
+      "confidence": 1.0
+    },
+    {
+      "type": "shot",
+      "shooter_id": 7,
+      "t_release": 44,
+      "air_frames": 6
+    }
+  ]
+}

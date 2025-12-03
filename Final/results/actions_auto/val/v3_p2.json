@@ -1,0 +1,31 @@
+{
+  "sequence": "v3_p2",
+  "fps": 2,
+  "events": [
+    {
+      "type": "pass",
+      "from_id": 7,
+      "to_id": 1,
+      "t_release": 3,
+      "t_catch": 4,
+      "air_f": 0,
+      "confidence": 1.0
+    },
+    {
+      "type": "dribble",
+      "player_id": 10,
+      "t_start": 8,
+      "t_end": 10,
+      "cycles": 1
+    },
+    {
+      "type": "pass",
+      "from_id": 10,
+      "to_id": 9,
+      "t_release": 10,
+      "t_catch": 15,
+      "air_f": 4,
+      "confidence": 1.0
+    }
+  ]
+}

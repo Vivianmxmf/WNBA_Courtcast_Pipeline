@@ -1,0 +1,62 @@
+{
+  "kmeans": {
+    "csv": "data/meta/team_assign/v1_margin_kmeans.csv",
+    "plots": {
+      "sorted_margins": "data/meta/team_assign/plots_v1/kmeans_sorted_margins.png",
+      "hist": "data/meta/team_assign/plots_v1/kmeans_margin_hist.png",
+      "home_vs_away": "data/meta/team_assign/plots_v1/kmeans_home_vs_away.png"
+    },
+    "ambiguous_csv": "data/meta/team_assign/plots_v1/ambiguous_kmeans.csv",
+    "margin_summary": {
+      "count": 58.0,
+      "mean": 64.09769715933965,
+      "std": 30.33115862977442,
+      "min": 3.875568389892578,
+      "25%": 39.83608055114747,
+      "50%": 65.09391403198242,
+      "75%": 93.26887893676758,
+      "max": 106.3226318359375
+    },
+    "n_tids": 58
+  },
+  "gmm": {
+    "csv": "data/meta/team_assign/v1_margin_gmm.csv",
+    "plots": {
+      "sorted_margins": "data/meta/team_assign/plots_v1/gmm_sorted_margins.png",
+      "hist": "data/meta/team_assign/plots_v1/gmm_margin_hist.png",
+      "home_vs_away": "data/meta/team_assign/plots_v1/gmm_home_vs_away.png"
+    },
+    "ambiguous_csv": "data/meta/team_assign/plots_v1/ambiguous_gmm.csv",
+    "margin_summary": {
+      "count": 58.0,
+      "mean": 56.639805892418174,
+      "std": 28.93204760892519,
+      "min": 2.9537811279296875,
+      "25%": 32.164469718933105,
+      "50%": 60.76846122741699,
+      "75%": 85.97171783447266,
+      "max": 92.4466781616211
+    },
+    "n_tids": 58
+  },
+  "prototypes": {
+    "csv": "data/meta/team_assign/v1_margin_prototypes.csv",
+    "plots": {
+      "sorted_margins": "data/meta/team_assign/plots_v1/prototypes_sorted_margins.png",
+      "hist": "data/meta/team_assign/plots_v1/prototypes_margin_hist.png",
+      "home_vs_away": "data/meta/team_assign/plots_v1/prototypes_home_vs_away.png"
+    },
+    "ambiguous_csv": "data/meta/team_assign/plots_v1/ambiguous_prototypes.csv",
+    "margin_summary": {
+      "count": 58.0,
+      "mean": 75.21883102943157,
+      "std": 42.76337352732648,
+      "min": 5.5235137939453125,
+      "25%": 35.77378749847412,
+      "50%": 79.18439865112305,
+      "75%": 108.92720031738281,
+      "max": 145.5312042236328
+    },
+    "n_tids": 58
+  }
+}

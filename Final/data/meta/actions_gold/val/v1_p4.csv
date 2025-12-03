@@ -1,0 +1,4 @@
+sequence,type,t_release,t_catch,t_start,t_end,x_release,y_release,x_catch,y_catch,notes
+v1_p4,pass,  12,  18,  ,  ,  , , , , 
+v1_p4,pass,  22,   27,  ,  ,  , ,  ,   , 
+v1_p4,shot,39 , ,  ,  , , , , , 

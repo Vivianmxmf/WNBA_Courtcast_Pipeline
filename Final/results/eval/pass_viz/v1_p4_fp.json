@@ -1,0 +1,85 @@
+{
+  "sequence": "v1_p4",
+  "events": [
+    {
+      "type": "pass",
+      "t_release": 1,
+      "t_catch": 2,
+      "from_xy": [
+        707.1462399999999,
+        276.7176
+      ],
+      "to_xy": [
+        843.37664,
+        360.45288
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 1,
+      "t_catch": 2,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 2,
+      "t_catch": 3,
+      "from_xy": [
+        843.37664,
+        360.45288
+      ],
+      "to_xy": [
+        771.3151999999999,
+        321.29568
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 2,
+      "t_catch": 3,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 6,
+      "t_catch": 7,
+      "from_xy": [
+        238.73664000000002,
+        285.04368
+      ],
+      "to_xy": [
+        224.14719999999997,
+        316.39320000000004
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 6,
+      "t_catch": 7,
+      "from_xy": null,
+      "to_xy": null
+    },
+    {
+      "type": "pass",
+      "t_release": 8,
+      "t_catch": 9,
+      "from_xy": [
+        246.50752000000003,
+        295.48656
+      ],
+      "to_xy": [
+        382.5088,
+        129.28392
+      ]
+    },
+    {
+      "type": "pass",
+      "t_release": 8,
+      "t_catch": 9,
+      "from_xy": null,
+      "to_xy": null
+    }
+  ]
+}

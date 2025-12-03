@@ -1,0 +1,9 @@
+suggested:
+  own_px: 143.5
+  own_hys: 21.5
+  near_px: 31.4
+  far_px: 108.5
+notes:
+  - pooled_files: 18
+  - strategy: own=min_dist P85, near=owner_dist P25, far=owner_dist P75
+  - This tool proposes *pixel* thresholds. Keep your frame thresholds (pass_air/shot_air) FPS-aware.

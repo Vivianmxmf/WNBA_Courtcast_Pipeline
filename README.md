@@ -4,6 +4,11 @@
 
 Lightweight but end-to-end toolkit for training tiny-object YOLOv8 detectors, converting CVAT exports into MOT-format splits, running BoT-SORT/ByteTrack tracking, projecting tracks to court coordinates, and mining basketball events (passes, dribbles, shots). Includes court homography estimation, jersey-based team clustering, and evaluation utilities.
 
+
+**Pipeline overview:**
+
+![Pipeline Overview](img/pipeline.png)
+
 ## Repository layout
 
 - `Final/src/yolo`: Training, inference, and evaluation entrypoints for YOLOv8.
@@ -77,40 +82,44 @@ python3 src/rules/rules_actions.py --split val --tracker botsort --player_cls 0 
 
 **Precision–Recall curves (players vs ball) and training curves:**
 
-![PR Curves](img/pr_curves.png)
+![PR Curves](img/BoxPR_curve.png)
+![Training_Results](img/results.png)
 
 **Detection confusion matrix:**
 
-![Confusion Matrix](img/confusion_matrix.png)
+![Confusion Matrix](img/confusion_matrix_normalized.png)
 
 **Dataset stats and box distributions:**
 
-![Dataset Stats](img/dataset_stats.png)
+![Dataset Stats](img/labels.png)
 
 **Tracking visual examples:**
 
-![Tracking Examples](img/tracking_examples.png)
+![Tracking Examples_right](img/overlay_img.png)
+![Tracking Examples_left](img/overlay_img2.png)
 
 **Tracking metrics (per-sequence IDF1/IDR/IDP):**
 
-![Tracking Metrics](img/tracking_metrics.png)
+![Tracking Metrics](img/tracking_table.png)
 
 **OOB frame analysis (2 FPS and 10 FPS splits):**
 
-![OOB Analysis](img/oob_analysis.png)
+![OOB Analysis_2FPS](img/oob_val.png)
+![OOB Analysis_10FPS](img/oob_val10.png)
 
 **Team assignment diagnostics:**
 
-![Team Assignment](img/team_assignment.png)
+![Team Assignment_kmeans](img/keans_clustering.png)
+![Team Assignment_prototype](img/prototype_clustering.png)
 
 **Court projection and heatmaps:**
 
-![Court Projection](img/court_projection.png)
+![Court Projection](img/2d_mapping.png)
+![Player_Heatmap_Sample](img/v1_players_heat.png)
+
 
 **Event mining metrics (two settings):**
 
-![Event Metrics](img/event_metrics.png)
+![Event Metrics_2FPS](img/event_val.png)
+![Event Metrics_10FPS](img/event_val10.png)
 
-**Pipeline overview:**
-
-![Pipeline Overview](img/pipeline_overview.png)
